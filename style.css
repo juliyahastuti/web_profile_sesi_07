@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 1px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.active-tab {
+    display: block;
+}
+
+.container .profile img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    border-radius: 50%;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.container .content #awards img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+}
